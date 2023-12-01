@@ -26,6 +26,7 @@ const RegisterForm = () => {
           name="username"
           value={formData.username}
           onChange={handleChange}
+          required
         />
       </label>
       <label>
